@@ -10,8 +10,9 @@
 
     <ImageView
         android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
         android:src="@android:drawable/ic_media_previous"
         android:layout_gravity="start" />
 

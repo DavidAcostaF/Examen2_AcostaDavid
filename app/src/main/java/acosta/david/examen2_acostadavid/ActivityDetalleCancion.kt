@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -41,19 +42,22 @@ class ActivityDetalleCancion : AppCompatActivity() {
                 .setMessage("¿Seguro que deseas eliminar \"${cancion?.nombre}\"?")
                 .setPositiveButton("Sí") { _, _ ->
                     MainActivity.listaCanciones.remove(cancion)
+                    Toast.makeText(this, "Canción eliminada", Toast.LENGTH_SHORT).show()
                     finish()
                 }
                 .setNegativeButton("Cancelar", null)
                 .show()
 
-            btnBack.setOnClickListener({
+
+    }
+        btnBack.setOnClickListener({
             finish()
         })
+
         btnPlay.setOnClickListener({
             var indent = Intent(this, ActivityReproductor::class.java)
             indent.putExtra("cancion", cancion)
             startActivity(indent)
         })
-    }
     }
 }

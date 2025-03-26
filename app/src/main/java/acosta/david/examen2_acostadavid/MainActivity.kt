@@ -50,15 +50,6 @@ class MainActivity : AppCompatActivity() {
                 Cancion("Someone Like You", "Adele", "4:45", "21"),
                 Cancion("Counting Stars", "OneRepublic", "4:17", "Native"),
                 Cancion("Happier", "Marshmello ft. Bastille", "3:34", "Happier"),
-                Cancion("Rolling in the Deep", "Adele", "3:48", "21"),
-                Cancion("Numb", "Linkin Park", "3:05", "Meteora"),
-                Cancion("Sugar", "Maroon 5", "3:55", "V"),
-                Cancion("Blinding Lights", "The Weeknd", "3:20", "After Hours"),
-                Cancion("Photograph", "Ed Sheeran", "4:19", "x"),
-                Cancion("Yellow", "Coldplay", "4:26", "Parachutes"),
-                Cancion("Lose Yourself", "Eminem", "5:20", "8 Mile"),
-                Cancion("Chandelier", "Sia", "3:36", "1000 Forms of Fear"),
-                Cancion("Radioactive", "Imagine Dragons", "3:06", "Night Visions")
             )
         )
 
