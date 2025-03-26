@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@drawable/bg_item_cancion"
+    android:layout_margin="8dp"
+    android:minHeight="72dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artista"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center" />
+</LinearLayout>
